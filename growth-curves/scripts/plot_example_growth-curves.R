@@ -24,7 +24,7 @@ p = ggplot(data, aes(x = Time, y = Growth, color = factor(Concentration))) +
   )
 
 ##save:
-#ggsave("/Users/christine/Desktop/github/growth-curves/plots/example_growth-curve.tiff", p, 
+#ggsave("./growth-curves/plots/example_growth-curve.tiff", p, 
 #       width = 4.5, height = 3.5, dpi = 600, compression = "lzw")
 
 
