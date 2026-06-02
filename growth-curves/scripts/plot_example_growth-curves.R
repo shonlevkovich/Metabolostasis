@@ -1,7 +1,7 @@
 library(ggplot2)
 
 ##import data:
-data = read.delim('/Users/christine/Desktop/github/growth-curves/data/example_growth-curve.txt')
+data = read.delim('./growth-curves/data/example_growth-curve.txt')
 
 ##set colour palette:
 color_list <- c("#0072BD", "#D95319", "#77AC30", "#EDB120")
