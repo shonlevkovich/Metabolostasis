@@ -19,12 +19,4 @@ other reference data
         └── AA_properties.csv            # amino acid physicochemical properties
 ```
 
-##Pipeline
-
-```r
-source('scripts/network_influence.R')
-```
-
-Raw experimental data cannot be shared. How `edgelist_final.txt` was
-constructed — including all parameters, edge types, and normalisation
-steps — is documented in `./network/scripts/NETWORK_CONSTRUCTION.md`.
+How `edgelist_final.txt` was constructed — including all parameters, edge types, and normalisation steps — is documented in `./network/scripts/NETWORK_CONSTRUCTION.md`.
